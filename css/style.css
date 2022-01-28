@@ -1,0 +1,10 @@
+/* ------------------------------
+    Reset all deafault styles
+------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Changa One", cursive;
+  font-family: "Roboto", sans-serif;
+}
