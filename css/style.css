@@ -3,6 +3,7 @@
 ------------------------------*/
 :root {
   --primary-color: #8a53ff;
+  --dark-grey-color: #434343;
 }
 
 /* ------------------------------
@@ -19,18 +20,6 @@
 /* ------------------------------
             Navbar
 ------------------------------*/
-/* .navbar-light .navbar-nav .nav-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #495367;
-  margin-left: 50px;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
-} */
-
 .nav-menu {
   display: flex;
 }
@@ -58,4 +47,83 @@
 }
 .nav-icon .nav-item .nav-link:hover {
   color: var(--primary-color);
+}
+
+/* ------------------------------
+            Banner
+------------------------------*/
+.banner-section {
+  display: flex;
+  align-items: center;
+  /* background: linear-gradient(to right, white, transparent); */
+  /* background-image: url(../images/banner.jpg),
+    linear-gradient(to right, white, transparent); */
+  background-image: url("../images/banner.jpg"),
+    linear-gradient(#eb01a5, #d13531);
+  min-height: 580px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-title {
+  font-family: "Changa One", cursive;
+  font-weight: normal;
+  font-size: 73px;
+  line-height: 84px;
+  color: var(--dark-grey-color);
+  margin-bottom: 12px;
+}
+.header-title span {
+  font-family: "Changa One", cursive;
+  font-weight: normal;
+  font-size: 73px;
+  line-height: 84px;
+  color: var(--primary-color);
+}
+.header-text {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: var(--dark-grey-color);
+  margin-bottom: 34px;
+}
+.custom-primary-btn {
+  padding: 16px 26px;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+  transition: 0.2s;
+}
+.custom-primary-btn:hover {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.custom-transparent-btn {
+  padding: 16px 26px;
+  color: var(--dark-grey-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.custom-transparent-btn .fas {
+  background-color: rgba(138, 83, 255, 0.12);
+  padding: 16px;
+  color: var(--primary-color);
+  /* height: 36px;
+  width: 36px; */
+  border-radius: 50%;
+  text-align: center;
+  /* line-height: 36px; */
+  vertical-align: middle;
 }
