@@ -178,6 +178,8 @@ Discover World Sections
   text-align: center;
   padding: 8px;
   margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .discover-world img {
   border-radius: 8px;
@@ -198,4 +200,78 @@ Discover World Sections
   font-size: 16px;
   line-height: 19px;
   color: var(--primary-color);
+}
+
+/* ------------------------------
+Join Our Destination Section
+------------------------------*/
+.join-our-destination-section {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  padding: 50px 0;
+  background-image: url(../images/world-tour.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.travel-form {
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid whitesmoke;
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+}
+.travel-form h4 {
+  font-family: "Changa One", cursive;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--dark-grey-color);
+}
+.travel-form p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  color: var(--dark-grey-color);
+}
+input,
+textarea,
+select {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid transparent;
+  font-weight: normal;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+::placeholder {
+  color: var(--dark-grey-color);
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid var(--primary-color);
+}
+.submit-btn {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 70px;
+  border-radius: 4px;
+  border: 2px solid var(--primary-color);
+  transition: 0.3s;
+}
+.submit-btn:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
 }
