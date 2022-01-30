@@ -133,9 +133,7 @@ Featured Destination Sections
 .featured-destination-section {
   display: flex;
   align-items: center;
-  padding: 100px 0;
-  /* min-height: 580px;
-  width: 100%; */
+  margin-top: 100px;
 }
 .features-destination-desc {
   height: 100%;
@@ -144,7 +142,7 @@ Featured Destination Sections
   justify-content: center;
   margin-left: 60px;
 }
-.features-destination-desc .sub-title {
+.section-sub-title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 18px;
@@ -152,7 +150,7 @@ Featured Destination Sections
   text-transform: uppercase;
   color: var(--primary-color);
 }
-.features-destination-desc .title {
+.section-title {
   font-family: "Changa One", cursive;
   font-weight: normal;
   font-size: 39px;
@@ -160,10 +158,44 @@ Featured Destination Sections
   color: var(--dark-grey-color);
   margin: 16px 0;
 }
-.features-destination-desc .text {
+.section-text {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 33px;
   color: var(--dark-grey-color);
+}
+
+/* ------------------------------
+Discover World Sections
+------------------------------*/
+.discover-world-section {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.discover-world {
+  text-align: center;
+  padding: 8px;
+  margin-top: 20px;
+}
+.discover-world img {
+  border-radius: 8px;
+}
+.discover-world h5 {
+  font-family: "Changa One", cursive;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--dark-grey-color);
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.discover-world a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-color);
 }
