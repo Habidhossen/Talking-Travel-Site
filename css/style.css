@@ -1,4 +1,11 @@
 /* ------------------------------
+    Declare styles variable
+------------------------------*/
+:root {
+  --primary-color: #8a53ff;
+}
+
+/* ------------------------------
     Reset all deafault styles
 ------------------------------*/
 * {
@@ -7,4 +14,48 @@
   box-sizing: border-box;
   font-family: "Changa One", cursive;
   font-family: "Roboto", sans-serif;
+}
+
+/* ------------------------------
+            Navbar
+------------------------------*/
+/* .navbar-light .navbar-nav .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #495367;
+  margin-left: 50px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+} */
+
+.nav-menu {
+  display: flex;
+}
+.nav-menu .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #495367;
+  margin-left: 30px;
+}
+.nav-menu .nav-item .nav-link:hover {
+  color: var(--primary-color);
+}
+.nav-icon {
+  display: flex;
+  margin-left: 30px;
+}
+.nav-icon .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-color);
+}
+.nav-icon .nav-item .nav-link:hover {
+  color: var(--primary-color);
 }
