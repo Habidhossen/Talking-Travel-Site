@@ -48,6 +48,15 @@
 .nav-icon .nav-item .nav-link:hover {
   color: var(--primary-color);
 }
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: white;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
 
 /* ------------------------------
             Banner
@@ -312,6 +321,8 @@ Recent Stroy Section
   width: 560px;
   height: 360px;
   border-radius: 8px 8px 0 0;
+  background-position: center;
+  background-size: cover;
 }
 .latest-story-desc {
   display: flex;
@@ -353,8 +364,7 @@ Recent Stroy Section
   transition: 0.3s;
 }
 .another-story-thumbnail img {
-  width: 200px;
-  height: 128px;
+  width: 500px;
   border-radius: 4px;
   margin-right: 20px;
 }
@@ -398,6 +408,7 @@ footer p {
 media query for small devices
 ------------------------------*/
 @media screen and (max-width: 688px) {
+  /* navbar */
   .navbar-brand img {
     width: 75%;
     padding: 10px;
@@ -420,6 +431,7 @@ media query for small devices
   .nav-icon .nav-item .nav-link {
     padding: 10px;
   }
+  /* banner part */
   .header-title {
     text-align: center;
     font-size: 50px;
@@ -450,6 +462,87 @@ media query for small devices
   }
   .watch-highlight-btn .fas {
     padding: 17px 20px;
+  }
+  /* featured destination */
+  .featured-destination-section {
+    margin-top: 20px;
+  }
+  .features-destination-desc {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .section-title {
+    font-size: 34px;
+  }
+  .section-text {
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  /* discover world */
+  .discover-world {
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  /* join our destination */
+  .join-our-destination-section {
+    margin-top: 60px;
+  }
+  .submit-btn {
+    width: 100%;
+  }
+  /* recent story */
+  .recent-story-section {
+    margin-top: 60px;
+  }
+  .latest-story-thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  .latest-story-desc {
+    padding: 14px;
+  }
+  .latest-story-desc h5 {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 2px;
+  }
+  .latest-story-desc p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .play-btn .fas {
+    margin-left: 10px;
+  }
+  .another-story {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    transition: 0.3s;
+  }
+  .another-story-thumbnail img {
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    border-radius: 8px;
+  }
+  .another-story-desc h5 {
+    margin-top: 10px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 2px;
+  }
+  .another-story-desc p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .another-story-desc a {
+    font-size: 16px;
+    line-height: 19px;
   }
 }
 
