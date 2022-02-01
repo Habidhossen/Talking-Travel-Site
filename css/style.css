@@ -350,6 +350,7 @@ Recent Stroy Section
   background-color: #f9f9f9;
   border-radius: 8px;
   margin-bottom: 12px;
+  transition: 0.3s;
 }
 .another-story-thumbnail img {
   width: 200px;
@@ -391,4 +392,69 @@ footer p {
   font-size: 14px;
   line-height: 16px;
   color: #939eb4;
+}
+
+/* ------------------------------
+media query for small devices
+------------------------------*/
+@media screen and (max-width: 688px) {
+  .navbar-brand img {
+    width: 75%;
+    padding: 10px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu .nav-item .nav-link {
+    padding: 10px;
+    margin-left: 0;
+  }
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .nav-icon .nav-item .nav-link {
+    padding: 10px;
+  }
+  .header-title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 12px;
+  }
+  .header-title span {
+    font-size: 50px;
+  }
+  .header-text {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 38px;
+  }
+  .banner-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .custom-primary-btn {
+    padding: 14px 18px;
+    font-size: 12px;
+  }
+  .watch-highlight-btn {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .watch-highlight-btn .fas {
+    padding: 17px 20px;
+  }
+}
+
+/* ------------------------------
+media query for medium devices
+------------------------------*/
+@media screen and (max-height: 992px) {
 }
