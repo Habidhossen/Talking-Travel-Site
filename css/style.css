@@ -129,29 +129,6 @@
 .watch-highlight-btn span {
   color: var(--dark-grey-color);
 }
-.watch-now-btn {
-  margin-top: 22px;
-  color: var(--dark-grey-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  border-radius: 4px;
-  text-decoration: none;
-  transition: 0.4s;
-}
-.watch-now-btn .fas {
-  margin-right: 12px;
-  padding: 16px 19px;
-  height: 48px;
-  width: 48px;
-  border-radius: 50px;
-  background-color: var(--primary-color);
-  color: white;
-}
-.watch-now-btn span {
-  color: var(--primary-color);
-}
 
 /* ------------------------------
 Featured Destination Sections
@@ -191,6 +168,29 @@ Featured Destination Sections
   line-height: 33px;
   color: var(--dark-grey-color);
 }
+.watch-now-btn {
+  margin-top: 22px;
+  color: var(--dark-grey-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+.watch-now-btn .fas {
+  margin-right: 12px;
+  padding: 16px 19px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  color: white;
+}
+.watch-now-btn span {
+  color: var(--primary-color);
+}
 
 /* ------------------------------
 Discover World Sections
@@ -205,7 +205,7 @@ Discover World Sections
   padding: 8px;
   margin-top: 20px;
   border-radius: 8px;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
 .discover-world img {
   border-radius: 8px;
@@ -236,17 +236,19 @@ Join Our Destination Section
   align-items: center;
   margin-top: 100px;
   padding: 50px 0;
-  background-image: url(../images/world-tour.jpg);
+  background-image: url(../images/tour.jpg);
   min-height: 100vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-attachment: fixed; */
 }
 .travel-form {
+  margin-top: 30px;
   padding: 30px;
   border-radius: 12px;
-  border: 1px solid whitesmoke;
+  border: 1px solid rgba(245, 245, 245, 0.2);
   background-color: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(20px);
 }
@@ -259,15 +261,14 @@ Join Our Destination Section
 }
 .travel-form p {
   font-weight: normal;
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 16px;
+  line-height: 28px;
   color: var(--dark-grey-color);
 }
 input,
-textarea,
-select {
+textarea {
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   width: 100%;
   padding: 8px;
   border-radius: 5px;
@@ -281,8 +282,7 @@ select {
   color: var(--dark-grey-color);
 }
 input:focus,
-textarea:focus,
-select:focus {
+textarea:focus {
   border: 1px solid var(--primary-color);
 }
 .submit-btn {
@@ -291,7 +291,7 @@ select:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-  padding: 15px 70px;
+  padding: 12px 70px;
   border-radius: 4px;
   border: 2px solid var(--primary-color);
   transition: 0.3s;
@@ -349,7 +349,7 @@ Recent Stroy Section
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
 }
 .another-story-thumbnail img {
   width: 200px;
@@ -378,4 +378,17 @@ Recent Stroy Section
   font-size: 16px;
   line-height: 19px;
   color: var(--primary-color);
+}
+
+/* ------------------------------
+            footer
+------------------------------*/
+footer {
+  margin-top: 50px;
+}
+footer p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #939eb4;
 }
