@@ -62,6 +62,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header-title {
@@ -274,4 +275,46 @@ select:focus {
   border: 2px solid white;
   color: white;
   background-color: transparent;
+}
+
+/* ------------------------------
+Recent Stroy Section
+------------------------------*/
+.recent-story-section {
+  margin-top: 100px;
+}
+.story-thumbnail img {
+  width: 560px;
+  height: 360px;
+  border-radius: 8px 8px 0 0;
+}
+.story-desc {
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+  background-color: #f9f9f9;
+  border-radius: 0 0 8px 8px;
+}
+.story-desc h5 {
+  font-family: "Changa One", cursive;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--dark-grey-color);
+  margin-bottom: 2px;
+}
+.story-desc p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #576074;
+}
+.play-btn .fas {
+  margin-left: 30px;
+  padding: 16px 19px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  color: white;
 }
