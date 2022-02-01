@@ -18,6 +18,13 @@
 }
 
 /* ------------------------------
+  Common styles or Utilities
+------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------------------------
             Navbar
 ------------------------------*/
 .nav-menu {
@@ -321,8 +328,10 @@ Recent Stroy Section
   margin-top: 100px;
 }
 .latest-story-thumbnail img {
-  width: 560px;
-  height: 360px;
+  /* width: 560px;
+  height: 360px; */
+  width: 100%;
+  height: 100%;
   border-radius: 8px 8px 0 0;
   background-position: center;
   background-size: cover;
@@ -519,7 +528,7 @@ media query for small devices
     margin-left: 10px;
   }
   .another-story {
-    margin-top: 12px;
+    margin: 12px 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -556,5 +565,31 @@ media query for small devices
 /* ------------------------------
 media query for medium devices
 ------------------------------*/
-@media screen and (max-height: 992px) {
+@media screen and (min-width: 689px) and (max-width: 992px) {
+  /* navbar */
+  .navbar-brand img {
+    width: 75%;
+    padding: 10px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu .nav-item .nav-link {
+    padding: 10px;
+    margin-left: 0;
+  }
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+  .nav-icon .nav-item .nav-link {
+    padding: 10px;
+  }
+  .another-story {
+    margin-top: 12px;
+  }
 }
