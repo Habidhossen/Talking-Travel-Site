@@ -283,19 +283,19 @@ Recent Stroy Section
 .recent-story-section {
   margin-top: 100px;
 }
-.story-thumbnail img {
+.latest-story-thumbnail img {
   width: 560px;
   height: 360px;
   border-radius: 8px 8px 0 0;
 }
-.story-desc {
+.latest-story-desc {
   display: flex;
   align-items: center;
-  padding: 14px 24px;
+  padding: 14px 20px;
   background-color: #f9f9f9;
   border-radius: 0 0 8px 8px;
 }
-.story-desc h5 {
+.latest-story-desc h5 {
   font-family: "Changa One", cursive;
   font-weight: normal;
   font-size: 24px;
@@ -303,7 +303,7 @@ Recent Stroy Section
   color: var(--dark-grey-color);
   margin-bottom: 2px;
 }
-.story-desc p {
+.latest-story-desc p {
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
@@ -317,4 +317,40 @@ Recent Stroy Section
   border-radius: 50px;
   background-color: var(--primary-color);
   color: white;
+}
+.another-story {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.another-story-thumbnail img {
+  width: 200px;
+  height: 128px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+.another-story-desc h5 {
+  font-family: "Changa One", cursive;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--dark-grey-color);
+  margin-bottom: 2px;
+}
+.another-story-desc p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #576074;
+}
+.another-story-desc a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-color);
 }
