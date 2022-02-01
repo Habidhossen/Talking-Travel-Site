@@ -59,6 +59,9 @@ html {
   color: rgba(0, 0, 0, 0.55);
   border-color: white;
 }
+.navbar-toggler {
+  color: var(--primary-color);
+}
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -413,6 +416,13 @@ footer {
 }
 footer p {
   font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #939eb4;
+}
+footer a {
+  text-decoration: none;
+  font-weight: bold;
   font-size: 14px;
   line-height: 16px;
   color: #939eb4;
